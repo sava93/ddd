@@ -35,4 +35,8 @@ public class JmsSenderApplication {
 	}
 	
 	*/
+        public void macmac(){
+            
+            System.out.println("mac maca");
+        }
 }
