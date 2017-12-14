@@ -22,7 +22,7 @@ public class JmsSenderApplication {
 		};
 	}
 	
-	/* This code is for the Rates
+	  This code is for the Rates
 	 
 	@Bean
 	CommandLineRunner process(JMSProperties props, RateSender sender){
@@ -32,7 +32,9 @@ public class JmsSenderApplication {
 			sender.sendCurrency(props.getRateQueue(), new Rate("MXN",19.232F,new Date()));
 			sender.sendCurrency(props.getRateQueue(), new Rate("GBP",0.75705F,new Date()));
 		};
+                System.out.println("Jebacu ti mater");
+                System.out.println("picka ti materina");
 	}
 	
-	*/
+	 
 }
