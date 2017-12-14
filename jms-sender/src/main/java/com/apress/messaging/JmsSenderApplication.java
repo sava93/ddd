@@ -39,4 +39,8 @@ public class JmsSenderApplication {
             
             System.out.println("mac maca");
         }
+        public void kuckuc(){
+            
+            System.out.println("Kuca je gladna");
+        }
 }
